@@ -64,7 +64,3 @@ body {
     padding: 10px;
     border-radius: 10px;
 }
-
-.card button :hover {
-    background-color: darkblue;
-}
