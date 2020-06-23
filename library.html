@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+      
+        <title>Library</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+      
+        <link rel="stylesheet" href="library.css">
+      
+      </head>
+      
+      <body>
+        <h1>Library.Gord</h1>
+        
+        <div>
+          <button id="newBookBtn">New Book</button>
+        </div>
+
+        
+        <form class='hide'>
+          <label>Title:</label>
+          <input type='text' placeholder="Enter Book Title." id='titleInput'></input>
+          <br>
+          <label>Author:</label>
+          <input type='text' placeholder="Enter the Author's name." id='authorInput'></input>
+          <br>
+          <label>Pages:</label>
+          <input type='text' placeholder="How many Pages does the book have?" id="pagesInput"></input>
+          <br>
+          <label>Read:</label>
+          <input type='text' placeholder="How many pages have you read?" id='readInput'></input>
+          <br>
+          <input type='button' value='submit' id='submitBtn'></input>
+        </form>
+      <div id="cardHolder">
+      </div>
+        <script src="library.js"></script>
+      </body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-color: blue;
+}
+
+#cardHolder {
+    position: absolute;
+    display: grid;
+    background-color: white;
+    grid-template-rows: repeat(auto, 200px);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    top:90px;
+    background-color: blue;
+}
+
+.card {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    font-size: 20px;
+    padding: 8px;
+    word-wrap: break-word;
+    word-break: normal;
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#newBookBtn{
+    position: absolute;
+    right: 0px;
+    top: 37px;
+    margin: 20px;
+    z-index: 1;
+}
+.show {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.show input {
+    padding: 8px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.hide {
+    position: absolute;
+    visibility: hidden;
+}
+
+.card button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card button :hover {
+    background-color: darkblue;
+}
