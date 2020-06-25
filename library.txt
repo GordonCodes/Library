@@ -1,0 +1,1 @@
+This project records the book information and how many pages of said book have been read. There is not a sufficient backend for long term storage.
